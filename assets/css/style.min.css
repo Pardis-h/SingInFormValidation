@@ -1,0 +1,2 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");body,*{font-family:'Poppins', sans-serif;padding:0;margin:0;-webkit-box-sizing:border-box;box-sizing:border-box}:root{--redPrimary: hsl(0, 100%, 74%);--redSecondary: hsla(0, 50%, 60%, 0.7);--greenPrimary: hsl(154, 59%, 51%);--greenSecondary: hsl(154, 59%, 45%);--greenHover: hsl(154, 59%, 65%);--blueAccent: hsl(248, 32%, 49%);--darkBlue: hsl(249, 10%, 26%);--grayishBlue: hsl(246, 25%, 77%)}
+/*# sourceMappingURL=style.min.css.map */
