@@ -8,9 +8,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f04493f8e4.js" crossorigin="anonymous"></script>
-    <title>Signin</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Signin Validation</title>
 </head>
 <body>
-    
+    <div class="container d-flex justify-between align-center p-5">
+        <div class="w-lg-48  d-flex">
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+        <div class="w-lg-48 signin">
+            <h5>
+                <span>Try it free 7 days </span>
+                then $20/mo.thereafter
+            </h5>
+            <form>
+                <div>
+                    <input type="text" placeholder="First Name">
+                    <span class="error-msg"></span>
+                </div>
+                <div>
+                    <input type="text" placeholder="Last Name">
+                    <span class="error-msg"></span>
+                </div>
+                <div>
+                    <input type="email" name="" id="" placeholder="Email Address">
+                    <span class="error-msg"></span>
+                </div>
+                <div>
+                    <input type="password" name="" id="" placeholder="Password">
+                    <span class="error-msg"></span>
+                </div>
+                <div>
+                    <input type="password" name="" id="" placeholder="Reset Password">
+                    <span class="error-msg"></span>
+                </div>
+                <button type="submit" class="btn">Claim Your Free Trial</button>
+                <span class="success-msg"></span>
+                <p>By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+            </form>
+        </div>
+        <div class="w-100 p-5 p-b-0 text-center">
+            <p>Challenge by Frontend Mentor. Coded by <a href="https://pardis-haghdoust.com">Pardis Haghdoust</a></p>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,3 +1,4 @@
+// Reset Css
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
 
@@ -6,4 +7,42 @@ body,*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+.w-lg-48{
+    width: 48%;
+}
+.p-5{
+    padding: 2rem;
+}
+.p-b-0{
+    padding-bottom: 0;
+}
+@media screen and (max-width:726px) {
+    .w-lg-48{
+        width: 100%;
+    }
 }
