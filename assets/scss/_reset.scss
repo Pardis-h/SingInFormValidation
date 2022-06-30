@@ -14,6 +14,7 @@ a{
 .container{
     max-width: 1400px;
     margin: 0 auto;
+    padding: 7rem 3rem .5rem 3rem; 
 }
 .d-flex{
     display: flex;
@@ -35,14 +36,17 @@ a{
 .w-lg-48{
     width: 48%;
 }
-.p-5{
-    padding: 2rem;
+.w-lg-46{
+    width: 46%;
 }
 .p-b-0{
     padding-bottom: 0;
 }
 @media screen and (max-width:726px) {
-    .w-lg-48{
+    .container{
+        padding: 5rem 1.5rem .5rem 1.5rem; 
+    }
+    .w-lg-48,.w-lg-46{
         width: 100%;
     }
 }

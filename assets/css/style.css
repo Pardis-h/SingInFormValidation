@@ -14,6 +14,7 @@ a {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 7rem 3rem .5rem 3rem;
 }
 
 .d-flex {
@@ -49,8 +50,8 @@ a {
   width: 48%;
 }
 
-.p-5 {
-  padding: 2rem;
+.w-lg-46 {
+  width: 46%;
 }
 
 .p-b-0 {
@@ -58,7 +59,10 @@ a {
 }
 
 @media screen and (max-width: 726px) {
-  .w-lg-48 {
+  .container {
+    padding: 5rem 1.5rem .5rem 1.5rem;
+  }
+  .w-lg-48, .w-lg-46 {
     width: 100%;
   }
 }
@@ -79,16 +83,31 @@ body {
   color: #fff;
 }
 
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.signin {
+  margin-bottom: 5rem;
+}
+
 .signin h5 {
   background-color: var(--blueAccent);
   color: #fff;
   padding: 1rem 1.5rem;
   text-align: center;
   border-radius: .5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-weight: 400;
   -webkit-box-shadow: 0px 6px 0px 0px #00000018;
           box-shadow: 0px 6px 0px 0px #00000018;
+  font-size: 1rem;
 }
 
 .signin h5 span {
@@ -105,12 +124,13 @@ body {
 
 .signin form input {
   width: 100%;
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
   border: 1px solid var(--grayishBlue);
   outline: none;
   border-radius: .5rem;
   padding: 1rem 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .signin form input:active, .signin form input:focus {
@@ -132,13 +152,15 @@ body {
 .signin form button {
   background-color: var(--greenPrimary);
   font-weight: 600;
+  font-size: 1rem;
   color: #fff;
   padding: 1rem 1.5rem;
   text-align: center;
   width: 100%;
   border: none;
   border-radius: .5rem;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
   cursor: pointer;
   -webkit-transition: .5s linear;
   transition: .5s linear;
@@ -158,5 +180,25 @@ body {
 
 .signin form > p a {
   color: var(--redPrimary);
+}
+
+@media screen and (max-width: 726px) {
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .signin {
+    margin-bottom: 3rem;
+  }
+  .fs-x {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -5,16 +5,26 @@ body{
     background: url('../img/bg-intro-desktop.png') $red-p;
     color: #fff;
 }
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.subtitle{
+    font-size: 1rem;
+}
 .signin{
+    margin-bottom: 5rem;
     h5{
         background-color: $blue-a;
         color: #fff;
         padding: 1rem 1.5rem;
         text-align: center;
         border-radius: .5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
         font-weight: 400;
         box-shadow: 0px 6px 0px 0px #00000018;
+        font-size: 1rem;
         span{
             font-weight: 600;
         }
@@ -26,12 +36,13 @@ body{
         padding: 2rem;
         input{
             width: 100%;
-            margin-bottom: .3rem;
+            margin-bottom: .5rem;
             border: 1px solid $gray-blue;
             outline: none;
             border-radius: .5rem;
             padding: 1rem 1.5rem;
-            font-weight: 600;
+            font-weight: 500;
+            font-size: 1rem;
             &:active,&:focus{
                 border-color: $red-s;
             }
@@ -49,13 +60,15 @@ body{
         button{
             background-color: $green-p;
             font-weight: 600;
+            font-size: 1rem;
             color: #fff;
             padding: 1rem 1.5rem;
             text-align: center;
             width: 100%;
             border: none;
             border-radius: .5rem;
-            margin-bottom: 1rem;
+            margin-bottom: .5rem;
+            margin-top: 1rem;
             cursor: pointer;
             transition: .5s linear;
             box-shadow: 0px 4px 0px 0px $green-s;
@@ -71,5 +84,25 @@ body{
                 color: $red-p;
             }
         }
+    }
+}
+// Responsive
+@media screen and (max-width:726px) {
+    .title{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .signin{
+        margin-bottom: 3rem;
+    }
+    .fs-x{
+        font-size: .8rem;
+        margin-bottom: .5rem;
     }
 }
