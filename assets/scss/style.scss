@@ -47,12 +47,12 @@ body{
                 border-color: $red-s;
             }
         }
-        .error-msg,.success-msg{
+        .error-msg,.signin-msg{
             color: $red-p;
             margin-bottom: 1rem;
             display: block;
         }
-        .success-msg{
+        .signin-msg{
             color: $green-s;
             text-align: center;
             font-weight: 500;

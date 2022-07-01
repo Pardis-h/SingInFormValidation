@@ -137,13 +137,13 @@ body {
   border-color: var(--redSecondary);
 }
 
-.signin form .error-msg, .signin form .success-msg {
+.signin form .error-msg, .signin form .signin-msg {
   color: var(--redPrimary);
   margin-bottom: 1rem;
   display: block;
 }
 
-.signin form .success-msg {
+.signin form .signin-msg {
   color: var(--greenSecondary);
   text-align: center;
   font-weight: 500;
