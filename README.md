@@ -5,7 +5,6 @@
 <img src="./readme-files/signin.png">
 
 ## ⚔️ 𝐓𝐡𝐞 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞
-Users should be able to:
 - [x]  View the optimal layout for the site depending on their device's screen size
 - [x]  send data with fetch to API and show success message
 
